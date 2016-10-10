@@ -41,10 +41,8 @@ public class Test {
 
         System.out.println(Helper.mostrar(m));
         System.out.println("Recorrido 1:");
-        System.out.println(Helper.recorridoHaciaArriba(m, 0, 4, 0));
-        System.out.println(Helper.recorridoHaciaDerecha(m, 0, 1, 2));
-        System.out.println(Helper.recorridoHaciaAbajo(m, 2, 1, 5));
-        System.out.println(Helper.recorridoHaciaDerecha(m, 4, 3, 4));
+        
+        System.out.println(Helper.recorridoHaciaDerecha(m, 0, 0, 4));
     }
     
 }

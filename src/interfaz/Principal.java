@@ -331,6 +331,9 @@ public class Principal extends javax.swing.JFrame {
             case 1:
                 txtRecorrido.setText(Helper.recorridoDos(tblTablaInicial));
                 break;
+            case 2:
+                txtRecorrido.setText(Helper.recorridoTres(tblTablaInicial));
+                break;
         }
     }//GEN-LAST:event_cmdOperacionActionPerformed
 
